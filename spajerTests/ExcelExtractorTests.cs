@@ -27,6 +27,7 @@ namespace spajer.Tests
             Assert.AreEqual(exp.Place.Address,res[0].Place.Address);
             Assert.AreEqual(exp.Name,res[0].Name);
             Assert.AreEqual(exp.Leader,res[0].Leader);
+
         }
     }
 }
